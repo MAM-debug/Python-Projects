@@ -16,7 +16,7 @@ Guess the random number game with hints and scoring system.
 - **Location:** `numberguess/`
 - **File:** `numberguess.py`
 - **Features:** Input validation, attempt tracking, difficulty range
-- [Read more](numberguess/README.md)
+- [Read more](https://github.com/MAM-debug/Python-Projects/commit/de1bbe4fb66eb944c932460a771e76ddca196aea)
 
 ## Getting Started
 
