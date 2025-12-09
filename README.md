@@ -19,8 +19,3 @@ Each project folder has its own README with detailed instructions.
 ## Technologies
 - Python 3
 - Built-in libraries
-
-## Future Projects
-- Calculator app
-- To-Do List
-- Weather app with Streamlit
