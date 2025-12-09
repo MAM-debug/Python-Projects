@@ -7,7 +7,7 @@ A collection of beginner to advamce Python learning projects.
 ### 1. Project 1
 An interactive command-line quiz game about IC logic gates.
 
-**File:** project1.py
+**File:** https://github.com/MAM-debug/Python-Projects/blob/main/project1.py
 
 **Features:**
 - Interactive gameplay
