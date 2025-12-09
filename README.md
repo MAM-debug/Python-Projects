@@ -9,7 +9,7 @@ An interactive command-line quiz game about IC logic gates.
 - **Location:** `quiz-game/`
 - **File:** `project1.py`
 - **Features:** Score tracking, instant feedback, 4 questions
-- [Read more](quiz-game/README.md)
+- [Read more](https://github.com/MAM-debug/Python-Projects/commit/8dde53986bd360e0dc0f73847da42730d4750d29)
 
 ### 2. Number Guessing Game 🎲
 Guess the random number game with hints and scoring system.
