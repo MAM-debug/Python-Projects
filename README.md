@@ -18,6 +18,22 @@ Guess the random number game with hints and scoring system.
 - **Features:** Input validation, attempt tracking, difficulty range
 - [Read more](https://github.com/MAM-debug/Python-Projects/commit/de1bbe4fb66eb944c932460a771e76ddca196aea)
 
+### 3. Weather App 🌤️
+Real-time weather application built with Streamlit and OpenWeatherMap API.
+
+Location: Streamlit/
+File: project3.py
+Features:
+
+Search weather by city name
+Real-time temperature (Celsius)
+Humidity and wind speed
+Weather description
+Error handling
+
+[Read more]
+
+
 ## Getting Started
 
 Each project folder has its own README with detailed instructions.
@@ -33,17 +49,18 @@ python filename.py
 - Built-in libraries only
 
 ## Project Structure
-```
-python-projects/
+
 ├── README.md (this file)
 ├── quiz-game/
 │   ├── project1.py
 │   └── README.md
-└── numberguess/
-    ├── numberguess.py
-    └── README.md
-```
-
+├── number-guessing-game/
+│   ├── number-guessing-game.py
+│   └── README.md
+└── Streamlit/
+    ├── project3.py
+    ├── README.md
+    └── README_SHORT.me
 
 
 ## How to Use This Repository
