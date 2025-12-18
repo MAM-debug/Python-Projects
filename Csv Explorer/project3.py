@@ -13,12 +13,13 @@ if uploaded_file is not None:
     st.write("Showing length of data:",len(df))
     col1,col2=st.columns(2)
     with col1:
-        st.metric("Number of Rows",df.shape[0])
+        st.metric("Number of Rowss",df.shape[0])
     with col2:
         st.metric("Number of Columns",df.shape[1])
     st.divider()
 
     st.dataframe(df)
+
 
 
 else:
