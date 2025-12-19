@@ -20,7 +20,31 @@ if uploaded_file is not None:
 
     st.dataframe(df)
 
+    st.divider()
+    st.subheader("Column Statistics:")
 
+    column_names=df.columns.tolist()
+    colum_types=df.dtypes
 
+    column_info=pd.DataFrame({
+        "Column Name":column_names,
+        "Data Type":colum_types
+    })
+
+    st.dataframe(column_info)
+
+    st.divider()
+    st.subheader("Summary Statistics:")
+    stats=df.describe()
+    st.dataframe(stats)
+    st.divider()
+    st.subheader("Missing Values Analysis:")
+    missing_values=df.isnull().sum()
+    missing_percentage=missing_values/len(df)*100
+    missing_data=pd.DataFrame({
+        "Missing Values":missing_values,
+        "Percentage (%)":missing_percentage 
+    })
+    st.dataframe(missing_data)
 else:
     st.info("File is not uploaded yet.")
