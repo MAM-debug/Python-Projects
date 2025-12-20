@@ -40,7 +40,7 @@ Interactive data analysis web application for exploring CSV files.
   - Column information and data types
   - Statistical summary (mean, median, std, quartiles)
   - Missing values analysis with percentages
-- - [Read more]()
+- - [Read more](Csv Explorer/README.md)
 
 ---
 
