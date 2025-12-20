@@ -8,14 +8,14 @@ An interactive command-line quiz game about IC logic gates.
 - **Location:** `quiz-game/`
 - **File:** `project1.py`
 - **Features:** Score tracking, instant feedback, 4 questions
-- [Read more](https://github.com/MAM-debug/Python-Projects/commit/8dde53986bd360e0dc0f73847da42730d4750d29)
+- [Read more](https://github.com/MAM-debug/Python-Projects/blob/f04482a2e0559fd2bdc057368b4ab871a86a68a6/quiz-game/README.md)
 
 ### 2. Number Guessing Game 🎲
 Guess the random number game with hints and scoring system.
 - **Location:** `numberguess/`
 - **File:** `numberguess.py`
 - **Features:** Input validation, attempt tracking, difficulty range
-- [Read more](https://github.com/MAM-debug/Python-Projects/commit/de1bbe4fb66eb944c932460a771e76ddca196aea)
+- [Read more](https://github.com/MAM-debug/Python-Projects/blob/f04482a2e0559fd2bdc057368b4ab871a86a68a6/number-guessing-game/README.md)
 
 ### 3. Weather App 🌤️
 Real-time weather application built with Streamlit and OpenWeatherMap API.
@@ -27,7 +27,7 @@ Real-time weather application built with Streamlit and OpenWeatherMap API.
   - Humidity and wind speed
   - Weather description
   - Error handling
-- [Read more](https://github.com/MAM-debug/Python-Projects/commit/618b3fc3e1613d21e12cb6312013766383bd1587)
+- [Read more](https://github.com/MAM-debug/Python-Projects/tree/f04482a2e0559fd2bdc057368b4ab871a86a68a6/Streamlit)
 
 ### 4. CSV Data Explorer 📊
 Interactive data analysis web application for exploring CSV files.
