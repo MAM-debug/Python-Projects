@@ -54,7 +54,7 @@ To run any project:
 cd quiz-game
 python project1.py
 
-cd number guess
+cd numberguess
 python project2.py
 ```
 
@@ -63,7 +63,7 @@ python project2.py
 # Weather App
 cd Streamlit
 pip install streamlit requests
-streamlit run project3.py
+streamlit run project4.py
 
 # CSV Data Explorer
 cd "Csv Explorer/Streamlit"
