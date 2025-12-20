@@ -63,12 +63,12 @@ python project2.py
 # Weather App
 cd Streamlit
 pip install streamlit requests
-streamlit run project4.py
+streamlit run project3.py
 
 # CSV Data Explorer
 cd "Csv Explorer/Streamlit"
 pip install streamlit pandas
-streamlit run project3.py
+streamlit run project4.py
 ```
 
 ---
