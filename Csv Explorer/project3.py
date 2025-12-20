@@ -43,8 +43,13 @@ if uploaded_file is not None:
     missing_percentage=missing_values/len(df)*100
     missing_data=pd.DataFrame({
         "Missing Values":missing_values,
-        "Percentage (%)":missing_percentage 
+        "Percentage (%)":missing_percentage.round(2) 
     })
-    st.dataframe(missing_data)
+    missing_data=missing_data[missing_data["Missing Values"]>0]
+    if not missing_data.empty:
+        st.dataframe(missing_data)
+        st.warning("Total columns with missing values:",len(missing_data))
+    else:
+        st.success("No missing values found in the dataset.")
 else:
     st.info("File is not uploaded yet.")
