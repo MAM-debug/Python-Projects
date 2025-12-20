@@ -1,5 +1,4 @@
 # Python Projects 🐍
-
 A collection of Python learning projects from basic to advanced.
 
 ## Projects
@@ -30,10 +29,22 @@ Real-time weather application built with Streamlit and OpenWeatherMap API.
   - Error handling
 - [Read more](https://github.com/MAM-debug/Python-Projects/commit/618b3fc3e1613d21e12cb6312013766383bd1587)
 
+### 4. CSV Data Explorer 📊
+Interactive data analysis web application for exploring CSV files.
+- **Location:** `Csv Explorer/Streamlit/`
+- **File:** `project4.py`
+- **Features:**
+  - File upload with drag-and-drop
+  - Interactive data table display
+  - Dataset dimensions (rows & columns)
+  - Column information and data types
+  - Statistical summary (mean, median, std, quartiles)
+  - Missing values analysis with percentages
+- **Technologies:** Python, Pandas, Streamlit
+
 ---
 
 ## Getting Started
-
 Each project folder has its own README with detailed instructions.
 
 To run any project:
@@ -42,29 +53,37 @@ To run any project:
 ```bash
 cd quiz-game
 python project1.py
+
+cd number guess
+python project2.py
 ```
 
-### Web App (Weather App)
+### Web Apps (Weather App & CSV Explorer)
 ```bash
+# Weather App
 cd Streamlit
 pip install streamlit requests
+streamlit run project3.py
+
+# CSV Data Explorer
+cd "Csv Explorer/Streamlit"
+pip install streamlit pandas
 streamlit run project3.py
 ```
 
 ---
 
 ## Technologies Used
-
 - **Python 3** - Core language
 - **Built-in libraries** - os, random, etc.
-- **Streamlit** - Web framework (Weather App)
+- **Streamlit** - Web framework (Weather App, CSV Explorer)
 - **Requests** - HTTP library (Weather App)
+- **Pandas** - Data manipulation (CSV Explorer)
 - **OpenWeatherMap API** - Weather data (Weather App)
 
 ---
 
 ## Project Structure
-
 ```
 python-projects/
 ├── README.md (this file)
@@ -74,10 +93,14 @@ python-projects/
 ├── numberguess/
 │   ├── numberguess.py
 │   └── README.md
-└── Streamlit/
-    ├── project3.py
-    ├── README.md
-    └── README_SHORT.md
+├── Streamlit/
+│   ├── project3.py
+│   ├── README.md
+│   └── README_SHORT.md
+└── Csv Explorer/
+    └── Streamlit/
+        ├── project4.py
+        └── README.md
 ```
 
 ---
@@ -100,12 +123,23 @@ python-projects/
    cat README.md
    ```
 
-4. **Run the Python file**
+4. **Install dependencies** (if needed)
    ```bash
-   python filename.py
+   # For Weather App
+   pip install streamlit requests
+   
+   # For CSV Explorer
+   pip install streamlit pandas
    ```
 
-5. **Follow the on-screen prompts**
+5. **Run the Python file**
+   ```bash
+   python filename.py
+   # or for Streamlit apps:
+   streamlit run filename.py
+   ```
+
+6. **Follow the on-screen prompts**
 
 ---
 
@@ -116,11 +150,11 @@ python-projects/
 | Quiz Game | 🟢 Beginner | 30 min | Variables, Loops, Conditionals |
 | Number Guessing | 🟢 Beginner | 30 min | Functions, Input, Logic |
 | Weather App | 🟡 Intermediate | 2 hours | APIs, Web Frameworks, Libraries |
+| CSV Explorer | 🟡 Intermediate | 1 hour | Data Analysis, Pandas, File Handling |
 
 ---
 
 ## Contributions
-
 Feel free to:
 - 🍴 Fork this repository
 - 🐛 Report bugs
@@ -130,13 +164,11 @@ Feel free to:
 ---
 
 ## License
-
 Free to use for learning purposes - MIT License
 
 ---
 
 ## Author
-
 Created by [@MAM-debug](https://github.com/MAM-debug)
 
 ---
