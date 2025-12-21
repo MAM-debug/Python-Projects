@@ -28,6 +28,7 @@ Real-time weather application built with Streamlit and OpenWeatherMap API.
   - Weather description
   - Error handling
 - [Read more](https://github.com/MAM-debug/Python-Projects/tree/f04482a2e0559fd2bdc057368b4ab871a86a68a6/Streamlit)
+- [APP LINK](https://weather-app-6954.streamlit.app/)
 
 ### 4. CSV Data Explorer 📊
 Interactive data analysis web application for exploring CSV files.
