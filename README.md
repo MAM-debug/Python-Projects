@@ -41,8 +41,8 @@ Interactive data analysis web application for exploring CSV files.
   - Column information and data types
   - Statistical summary (mean, median, std, quartiles)
   - Missing values analysis with percentages
-- - [Read more](https://github.com/MAM-debug/Python-Projects/blob/1316cb99821d94b356ce1e9c5898ae6c997aee5c/Csv%20Explorer/README.md)
-  - [APP LINK](https://python-projects-waj8acafd5rdhyx7ihzlnu.streamlit.app/)
+- [Read more](https://github.com/MAM-debug/Python-Projects/blob/1316cb99821d94b356ce1e9c5898ae6c997aee5c/Csv%20Explorer/README.md)
+- [APP LINK](https://python-projects-waj8acafd5rdhyx7ihzlnu.streamlit.app/)
 
 ---
 
