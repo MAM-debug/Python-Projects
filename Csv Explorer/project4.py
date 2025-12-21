@@ -48,7 +48,7 @@ if uploaded_file is not None:
     missing_data=missing_data[missing_data["Missing Values"]>0]
     if not missing_data.empty:
         st.dataframe(missing_data)
-        st.warning("Total columns with missing values:",len(missing_data))
+        st.warning(f"⚠️ Found missing values in {len(missing_data)} column(s)")
     else:
         st.success("No missing values found in the dataset.")
 else:
