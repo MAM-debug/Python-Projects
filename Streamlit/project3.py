@@ -6,7 +6,7 @@ st.title("🌤️ Weather App")
 city = st.text_input("Enter city or Country name:")
 
 if st.button("Get Weather"):
-    API_key = "c384c81d1252b8bb1b8a5f0ecd2d8da8"
+    API_key = "333"
     URL = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}&units=metric"
     response = requests.get(URL)
     
